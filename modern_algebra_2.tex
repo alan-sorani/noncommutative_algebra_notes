@@ -14,13 +14,17 @@
 \author{Typed by Elad Tzorani}
 \date{\today}
 
+\DeclareMathOperator{\Br}{Br}
+\DeclareMathOperator{\Mor}{Mor}
+\newcommand{\op}{{\mrm{op}}}
+
 \begin{document}
 
 \maketitle
 
 %TODO edit beginning sections and add course information
 
-\chapter*{Introduction}
+\chapter{Introduction}
 
 \section*{Course Information}
 
@@ -62,19 +66,104 @@ During the course we will go over the following topics.
 \subsection*{Motivation}
 
 Let $k$ be a field and consider finite-dimensional $k$-algebras $A$ that are \emph{simple} in the sense that there are no nontrivial two-sided ideals. Assume furthermore that $A$ is \emph{central} in the sense that its centre, $Z\prs{A}$, is $k$.
-Wedderburn-Artin theorem, any such algebra is a finite product of matrix algebras over division algebras.
+Wedderburn-Artin theorem, any such algebra is a matrix algebra over division algebras.
 
-\begin{example*}
+\begin{example}
 The following are central simple algebras over a field $K$:
 
 \begin{enumerate}
 \item $K$.
 \item $M_n\prs{K}$ for any $n \in \mbb{N}$.
 \item \[\mbb{H}_K \coloneqq K\trs{i,j,k}{\substack{i^2 = j^2 = k^2 \\ ij = ji = k \\ ik = -ki = -j \\ jk = -kj = i}} \text{.}\]
-Over $\mbb{C}$ we have $\mbb{H}_{\mbb{C}} \cong M_2\prs{\mbb{C}} \subseteq H_{\mbb{R}}$.
+Over $\mbb{C}$ we have $\mbb{H}_{\mbb{C}} \cong M_2\prs{\mbb{C}} \subseteq \mbb{H}_{\mbb{R}}$.
 \end{enumerate}
-\end{example*}
+\end{example}
 
+\begin{example}
+There are no finite-dimensional division algebras over an algebraically closed field $k$.
+
+Let $k$ be an algebraically closed field, and let $D$ be a finite-dimensional $k$-division algebra. For $z \in D$ one has that $k\prs{z}$ is a field, which is finite over $k$. Since $k = \bar{k}$ it follows that $k\prs{z} = k$, so $z \in k \cdot 1$. Hence $D = 1 \cdot k \cong k$.
+\end{example}
+
+\begin{theorem}[Wedderburn-Artin]
+Let $k$ be a field and $A$ a central simple algebra over $k$. There is a $k$-division algebra $D$ and $r \in \mbb{Z}_+$ such that $A \cong M_r\prs{D}$. Furthermore, $r$ is uniquely determined, and $D$ is uniquely determined up to a $k$-algebra isomorphism.
+\end{theorem}
+
+\begin{definition}[Brauer Equivalence]
+Let $A,B$ be central simple algebras over a field $k$. Write $A \cong M_{r_1}\prs{D_1}$ and $B \cong M_{r_2}\prs{D_2}$ as in Wedderburn-Artin. We say that $A,B$ are \emph{Brauer equivalent}, and write $A \sim B$, if $D_1 \cong D_2$.
+
+The Brauer (equivalence) class of a central-simple algebra $A$ is denoted $\brs{A}$. We denote the set of Brauer equivalence classes of central simple algebras over $k$ by $\Br\prs{k}$. This directly corresponds to $k$-central division algebras. This object is helpful because there is a natural group structure on it.
+\end{definition}
+
+\begin{example}
+For every field $k$, one has a Brauer equivalence $M_r\prs{k} \sim k$.
+\end{example}
+
+\begin{proposition}\label{proposition:CSA_product}
+Let $A,B$ be central simple algebras over a field $k$. Then their \href{https://en.wikipedia.org/wiki/Tensor_product_of_algebras}{tensor product} $A \otimes_k B$ is also a central simple algebra.
+\end{proposition}
+
+In light of \Cref{proposition:CSA_product} we can define the following product on $\Br\prs{k}$.
+
+\begin{definition}[Brauer Group]
+Let $k$ be a field and let $\brs{A},\brs{B} \in \Br\prs{k}$. We define the product
+\[\brs{A} \brs{B} \coloneqq \brs{A \otimes_k B} \text{.}\]
+
+This has the unit $k$ and $\brs{A}$ has an inverse $\brs{A}^{-1} = \brs{A^\op}$ where $A^\op$ is the \emph{opposite algebra} which is $A$ as a set, with product $a \cdot_\op b = b \cdot a$. This turns $\Br\prs{k}$ into a group.
+\end{definition}
+
+\begin{proposition}
+If $A$ is a central simple algebra over $k$ of dimension $m^2$, then $A^\op$ is of dimension $m$, then $A \otimes_k A^\op \cong M_{m^2}\prs{k} \sim k$.
+\end{proposition}
+
+\begin{example}
+Let $k = \mbb{R}$. There are only two division algebras over $k$, which are ${\mbb{R}, \mbb{H}_{\mbb{R}}}$. Then $\Br\prs{\mbb{R}} \cong \mbb{Z}/2\mbb{Z}$. We get that $\mbb{H}_{\mbb{R}} \otimes_{\mbb{R}} \mbb{H}_{\mbb{R}} \cong M_4\prs{\mbb{R}}$.
+\end{example}
+
+\chapter{Some Category Theory}
+
+\section{Basic Definitions}
+
+A central study in algebra is that of category theory. Through this we can study collections of objects such as those of all abelian groups, all topological spaces, et cetera.
+There are obviously set-theoretic issues and one has to define things correctly. We will ignore them completely. For us, any collection of sets is called a \emph{class} and we will work with classes without elaboration of set-theoretic issues.
+
+\begin{definition}[Category]
+A \emph{category} is $\mcal{C}$ is a triple $\prs{\ob\prs{\mcal{C}}, \Mor\prs{\mcal{C}}, \circ}$ that satisfies the following.
+
+\begin{enumerate}[label = (\roman*)]
+\item $\ob\prs{\mcal{C}}$ is a class of what we call \emph{objects}.
+\item For all $A,B \in \ob\prs{\mcal{C}}$ there is a set $\hom_{\mcal{C}}\prs{A,B}$.
+\item For all $A,B,C \in \ob\prs{\mcal{C}}$ there is a \emph{composition}
+\[\circ \colon \hom_{\mcal{C}}\prs{A,B} \times \hom_{\mcal{C}}\prs{B,C} \to \hom_{\mcal{C}}\prs{A,C}\]
+subject to the following conditions.
+\begin{enumerate}[label = (\Roman*)]
+\item For every $A \in \ob\prs{\mcal{C}}$ there is an element $1_A \in \End_{\mcal{C}}\prs{A} \coloneqq \hom_{\mcal{C}}\prs{A,A}$ such that $1_A \circ f = f$ and $g \circ 1_A$ for all $f,g$ (such that composition makes sense).
+\item Composition is associative.
+\end{enumerate}
+\end{enumerate}
+\end{definition}
+
+\begin{example}[$\mathbf{Set}$]
+The collection $\mathbf{Set}$ of sets and functions between them is a category. Composition is that of functions.
+\end{example}
+
+\begin{example}[$\mathbf{Group}$]
+The collection $\mathbf{Group}$ of groups and group homomorphisms is a category. Composition is that of homomorphisms.
+\end{example}
+
+\begin{example}[$\mathbf{Ab}$]
+The collection $\mathbf{Ab}$ of abelian groups and their homomorphisms is a category. Composition is that of homomorphisms.
+\end{example}
+
+\begin{example}[$\mathbf{Top}$]
+The collection $\mathbf{Top}$ of topological spaces with continuous functions between them is a category. Composition is that of continuous functions.
+\end{example}
+
+\begin{example}
+Let $X$ be a non-empty set with a reflexive and transitive relation $R$. We define a category $\mcal{C}$ with $\ob\prs{\mcal{C}} = X$ and where
+\[\hom_{\mcal{C}}\prs{a,b} = \begin{cases}\emptyset & \prs{a,b} \notin R \\ \set{*} & \prs{a,b} \in R\end{cases}\]
+and composition is the only one possible.
+\end{example}
 
 %---BIBLIOGRAPHY & INDEX---
 

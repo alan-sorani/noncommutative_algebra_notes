@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6.28) (format=lualatex 2021.11.4)  21 MAR 2022 09:05
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6.28) (format=lualatex 2021.11.4)  21 MAR 2022 10:24
  restricted system commands enabled.
 **modern_algebra_2.tex
 (./modern_algebra_2.tex
@@ -1451,35 +1451,35 @@ Package cleveref Info: `amsthm' support loaded on input line 3026.
 (./modern_algebra_2.aux)
 \openout1 = modern_algebra_2.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+1.
 
 (C:/Users/EladT/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-Package scrbase Info: activating english \contentsname on input line 17.
-Package scrbase Info: activating english \listfigurename on input line 17.
-Package scrbase Info: activating english \listtablename on input line 17.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+Package scrbase Info: activating english \contentsname on input line 21.
+Package scrbase Info: activating english \listfigurename on input line 21.
+Package scrbase Info: activating english \listtablename on input line 21.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1506,8 +1506,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'modern_algebra_2.bbl' found.
  (./modern_algebra_2.bbl)
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
+Package biblatex Info: Reference section=0 on input line 21.
+Package biblatex Info: Reference segment=0 on input line 21.
 
 (C:/Users/EladT/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
@@ -1534,7 +1534,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 17.
+Package hyperref Info: Link coloring ON on input line 21.
 
 (C:/Users/EladT/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1548,9 +1548,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count460
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
  (./modern_algebra_2.out) (./modern_algebra_2.out)
 \@outlinefile=\write7
 
@@ -1562,7 +1562,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 17.
+(scrbook)           before \begin{document} on input line 21.
 
 (C:/Users/EladT/AppData/Local/Programs/MiKTeX/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1575,27 +1575,27 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 17.
+ on input line 21.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 
 (C:/Users/EladT/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
 
 
 (C:/Users/EladT/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 20
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
 .
 
 (C:/Users/EladT/AppData/Local/Programs/MiKTeX/tex/latex/jknappen/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
-20.
+24.
 
 (C:/Users/EladT/AppData/Local/Programs/MiKTeX/tex/latex/calrsfs/omsrsfs.fd)
 [1
@@ -1605,11 +1605,17 @@ LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line
 {C:/Users/EladT/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
 
 
-] [3]
+]
+chapter 1.
+[3] [4]
+chapter 2.
 
-LaTeX Warning: Empty bibliography on input line 81.
+LaTeX Warning: Empty bibliography on input line 170.
 
-[4] (./modern_algebra_2.aux)
+[5
+
+
+] (./modern_algebra_2.aux)
 Package rerunfilecheck Info: File `modern_algebra_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'modern_algebra_2.run.xml'.
@@ -1618,34 +1624,38 @@ Package logreq Info: Writing requests to 'modern_algebra_2.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48446 strings out of 478064
+ 48495 strings out of 478064
  100000,2373549 words of node,token memory allocated
- 610 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 75 glue_spec,
- 8 attribute_list, 2 write nodes
-   avail lists: 1:3,2:519,3:181,4:80,5:174,6:41,7:2662,8:32,9:232,10:10,11:204
- 67215 multiletter control sequences out of 65536+600000
- 78 fonts using 6784391 bytes
- 125i,8n,115p,10611b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 632 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 12 attribute, 75 glue_spec
+, 12 attribute_list, 2 write, 1 pdf_action nodes
+   avail lists: 1:3,2:700,3:203,4:80,5:407,6:40,7:5427,8:42,9:536,10:10,11:294
+ 67241 multiletter control sequences out of 65536+600000
+ 81 fonts using 6970695 bytes
+ 125i,13n,115p,10611b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
 <//?/c:/users/eladt/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
-an10-bold.otf><//?/c:/users/eladt/appdata/local/programs/miktex/fonts/opentype/p
-ublic/lm/lmroman10-italic.otf><//?/c:/users/eladt/appdata/local/programs/miktex/
-fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/eladt/appdata/local
-/programs/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><//?/c:/users/el
-adt/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans10-bold.otf><C:
-/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10
-.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/EladT/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/EladT/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/EladT/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on modern_algebra_2.pdf (4 pages, 101265 bytes).
+anslant10-regular.otf><//?/c:/users/eladt/appdata/local/programs/miktex/fonts/op
+entype/public/lm/lmroman10-bold.otf><//?/c:/users/eladt/appdata/local/programs/m
+iktex/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/users/eladt/appdata/
+local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/use
+rs/eladt/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-regula
+r.otf><//?/c:/users/eladt/appdata/local/programs/miktex/fonts/opentype/public/lm
+/lmsans10-bold.otf><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/EladT/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/EladT/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/EladT/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/EladT/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/E
+ladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/rsfs/rsfs10.pfb>
+Output written on modern_algebra_2.pdf (5 pages, 147299 bytes).
 
-PDF statistics: 107 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 164 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 131072)
+ 40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,9 +1,9 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'modern_algebra_2.blg'
-[144] biber-MSWIN64:340> INFO - === 
-[181] Biber.pm:415> INFO - Reading 'modern_algebra_2.bcf'
-[307] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[313] Utils.pm:395> WARN - The file 'modern_algebra_2.bcf' does not contain any citations!
-[325] bbl.pm:654> INFO - Writing 'modern_algebra_2.bbl' with encoding 'UTF-8'
-[325] bbl.pm:757> INFO - Output to modern_algebra_2.bbl
-[326] Biber.pm:128> INFO - WARNINGS: 1
+[127] biber-MSWIN64:340> INFO - === 
+[164] Biber.pm:415> INFO - Reading 'modern_algebra_2.bcf'
+[297] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[304] Utils.pm:395> WARN - The file 'modern_algebra_2.bcf' does not contain any citations!
+[315] bbl.pm:654> INFO - Writing 'modern_algebra_2.bbl' with encoding 'UTF-8'
+[315] bbl.pm:757> INFO - Output to modern_algebra_2.bbl
+[315] Biber.pm:128> INFO - WARNINGS: 1
