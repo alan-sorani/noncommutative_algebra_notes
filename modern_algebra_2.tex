@@ -1,0 +1,83 @@
+\documentclass[11pt]{kbook}
+
+\usepackage{math}
+
+%TODO change this to book
+
+%---MATH MACROS---
+
+\addbibresource{bibliography.bib}
+
+%---TITLE---
+
+\title{Lecture Notes to a Course on Non-Commutative Algebra \\ \small{Taught by Prof. Eli Aljadeff at Technion IIT during Spring 2022}}
+\author{Typed by Elad Tzorani}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+%TODO edit beginning sections and add course information
+
+\chapter*{Introduction}
+
+\section*{Course Information}
+
+%TODO fill in
+
+\section*{Prerequisites}
+
+The course will assume undergraduate knowledge in group theory and ring theory.
+
+\section*{Notations \& Conventions}
+
+%TODO organize this
+
+\begin{itemize}
+\item All $k$-algebras are assumed to be associative and unital, but not necessarily commutative.
+\end{itemize}
+
+\section*{Course Goals \& Motivation}
+
+\subsection*{Course Goals}
+
+During the course we will go over the following topics.
+
+\begin{itemize}
+\item Category Theory \& other algebraic tools.
+
+\item Rings \& the Jacobson radical.
+
+\item The Wedderburn-Artin theorem.
+
+\item Central simple algebras.
+
+\item Brauer group theory.
+
+\item Group cohomology \& Galois cohomology.
+
+\end{itemize}
+
+\subsection*{Motivation}
+
+Let $k$ be a field and consider finite-dimensional $k$-algebras $A$ that are \emph{simple} in the sense that there are no nontrivial two-sided ideals. Assume furthermore that $A$ is \emph{central} in the sense that its centre, $Z\prs{A}$, is $k$.
+Wedderburn-Artin theorem, any such algebra is a finite product of matrix algebras over division algebras.
+
+\begin{example*}
+The following are central simple algebras over a field $K$:
+
+\begin{enumerate}
+\item $K$.
+\item $M_n\prs{K}$ for any $n \in \mbb{N}$.
+\item \[\mbb{H}_K \coloneqq K\trs{i,j,k}{\substack{i^2 = j^2 = k^2 \\ ij = ji = k \\ ik = -ki = -j \\ jk = -kj = i}} \text{.}\]
+Over $\mbb{C}$ we have $\mbb{H}_{\mbb{C}} \cong M_2\prs{\mbb{C}} \subseteq H_{\mbb{R}}$.
+\end{enumerate}
+\end{example*}
+
+
+%---BIBLIOGRAPHY & INDEX---
+
+\printbibliography
+
+\end{document}
