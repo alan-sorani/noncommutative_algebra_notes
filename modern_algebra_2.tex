@@ -39,7 +39,7 @@ The course will assume undergraduate knowledge in group theory and ring theory.
 %TODO organize this
 
 \begin{itemize}
-\item All $k$-algebras are assumed to be associative and unital, but not necessarily commutative.
+\item All rings and $k$-algebras are assumed to be associative and unital, but not necessarily commutative.
 \end{itemize}
 
 \section*{Course Goals \& Motivation}
@@ -164,6 +164,37 @@ Let $X$ be a non-empty set with a reflexive and transitive relation $R$. We defi
 \[\hom_{\mcal{C}}\prs{a,b} = \begin{cases}\emptyset & \prs{a,b} \notin R \\ \set{*} & \prs{a,b} \in R\end{cases}\]
 and composition is the only one possible.
 \end{example}
+
+\begin{example}[$\mathbf{Monoid}$]
+Let $\mathbf{Monoid}$ be the category of \href{https://en.wikipedia.org/wiki/Monoid}{monoids} together with their homomorphisms.
+\end{example}
+
+\begin{example}
+Let $R$ be a (unital) ring. Then $\prs{R, \times, 1}$ is a monoid. We define a category $\mbf{B}\prs{R}$ with one object $*$ and where $\hom_{\mbf{B}\prs{R}}\prs{*, *}$ and composition is defined by the multiplicative structure.
+\end{example}
+
+\begin{example}
+Let $\mbf{Set}^*$ be the category of pairs $\prs{A,p}$ where $A$ is a set and where $p \in A$, and where morphisms $\prs{A,p} \to \prs{B,q}$ are functions $f \colon A \to B$ with $f\prs{p} = q$.
+\end{example}
+
+\begin{example}
+\begin{enumerate}
+\item Let $R = k$ be a field. An $R$-module is a $k$-vector space.
+
+\item Let $R = \mbb{Z}$. An $R$-module is an abelian group $A$ with the action
+\[ m * a = ma \coloneqq \overset{\text{$m$ times}}{\overbrace{a + \ldots + a}} \text{.} \]
+\end{enumerate}
+\end{example}
+
+\begin{example}
+Let $k$ be a field. We have $k^n$ and $M_{n, r}\prs{k}$ as $M_n\prs{k}$-right modules. We later show that these are all the possibilities, up to isomorphism.
+\end{example}
+
+\begin{example}
+Let $S,R$ be unital rings and let $\pi \colon S \to R$ be a homomorphism of unital rings. 
+\end{example}
+
+
 
 %---BIBLIOGRAPHY & INDEX---
 

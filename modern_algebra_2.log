@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6.28) (format=lualatex 2021.11.4)  21 MAR 2022 10:24
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6.28) (format=lualatex 2021.11.4)  23 MAR 2022 18:07
  restricted system commands enabled.
 **modern_algebra_2.tex
 (./modern_algebra_2.tex
@@ -1609,13 +1609,14 @@ LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line
 chapter 1.
 [3] [4]
 chapter 2.
-
-LaTeX Warning: Empty bibliography on input line 170.
-
 [5
 
 
-] (./modern_algebra_2.aux)
+]
+
+LaTeX Warning: Empty bibliography on input line 193.
+
+[6] (./modern_algebra_2.aux)
 Package rerunfilecheck Info: File `modern_algebra_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'modern_algebra_2.run.xml'.
@@ -1624,38 +1625,40 @@ Package logreq Info: Writing requests to 'modern_algebra_2.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48495 strings out of 478064
+ 48508 strings out of 478064
  100000,2373549 words of node,token memory allocated
- 632 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 12 attribute, 75 glue_spec
-, 12 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 1:3,2:700,3:203,4:80,5:407,6:40,7:5427,8:42,9:536,10:10,11:294
- 67241 multiletter control sequences out of 65536+600000
- 81 fonts using 6970695 bytes
+ 636 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 75 glue_spec
+, 13 attribute_list, 2 write, 1 pdf_action nodes
+   avail lists: 1:3,2:698,3:203,4:80,5:408,6:40,7:5427,8:42,9:536,10:10,11:285
+ 67247 multiletter control sequences out of 65536+600000
+ 89 fonts using 7451199 bytes
  125i,13n,115p,10611b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
 <//?/c:/users/eladt/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
-anslant10-regular.otf><//?/c:/users/eladt/appdata/local/programs/miktex/fonts/op
-entype/public/lm/lmroman10-bold.otf><//?/c:/users/eladt/appdata/local/programs/m
-iktex/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/users/eladt/appdata/
-local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/use
-rs/eladt/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-regula
-r.otf><//?/c:/users/eladt/appdata/local/programs/miktex/fonts/opentype/public/lm
-/lmsans10-bold.otf><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/EladT/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/EladT/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/EladT/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/EladT/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/E
-ladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
-mbols/msbm10.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/rsfs/rsfs10.pfb>
-Output written on modern_algebra_2.pdf (5 pages, 147299 bytes).
+an8-regular.otf><//?/c:/users/eladt/appdata/local/programs/miktex/fonts/opentype
+/public/lm/lmromanslant10-regular.otf><//?/c:/users/eladt/appdata/local/programs
+/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/eladt/appdata/
+local/programs/miktex/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/user
+s/eladt/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular
+.otf><//?/c:/users/eladt/appdata/local/programs/miktex/fonts/opentype/public/lm/
+lmroman12-regular.otf><//?/c:/users/eladt/appdata/local/programs/miktex/fonts/op
+entype/public/lm/lmsans10-bold.otf><C:/Users/EladT/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/EladT/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/EladT/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/EladT/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Elad
+T/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
+rs/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/EladT/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb><C:/Users/EladT/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on modern_algebra_2.pdf (6 pages, 165766 bytes).
 
-PDF statistics: 164 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 131072)
+PDF statistics: 187 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 131072)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 
