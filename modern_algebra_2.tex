@@ -244,6 +244,39 @@ A left $R$-module is a right $R^\op$-module via
 \[m \cdot r^\op = r m \text{.}\]
 \end{remark}
 
+%4.4.22
+
+We notice that in the category of (left) $R$-modules, for any objects $A,B$ the set $\hom_R\prs{A,B}$ has an $R$-module structure.
+For $r \in R$ and $\hom_R\prs{A,B}$ we might want to define $\prs{rf}\prs{a} = r \cdot f\prs{a}$, but this isn't necessarily a map of $R$-modules: we would need to have $\prs{rf}\prs{ta} = t \prs{rf}\prs{a}$, but $r t f\prs{a}, t r f\prs{a}$ aren't generally equal when $R$ is noncommutative.
+
+\begin{example}
+Let $R,S$ be rings and $A$ is an $R-S$ bimodule (i.e. a left $R$-module and a right $S$-module, such that the actions respect each other).
+Defining
+\begin{align*}
+sf \colon A &\to B \\
+a &\mapsto f\prs{as}
+\end{align*}
+we have
+\begin{align*}
+\prs{sf}\prs{ra} &= f\prs{\prs{ra}s}
+\\&= f\prs{r\prs{as}}
+\\&= rf\prs{as}
+\\&= r\prs{sf}\prs{a} \text{,}
+\end{align*}
+hence $sf$ is an $R$-module homomorphism.
+One similarly check that $\prs{s_1 s_2} f = s_1 \prs{s_2 f}$.
+\end{example}
+
+We now ask when $\hom_R\prs{A, -}$ is additive (i.e. the hom sets are homomorphisms of abelian groups). Taking a map $f \colon B \to B'$ we get
+\begin{align*}
+f_* \colon \hom_R\prs{A,B} &\to \hom_R\prs{A,B'} \\
+g &\mapsto f \circ g \text{.}
+\end{align*}
+Then $\prs{f_1 + f_2}_* = \prs{f_1}_* + \prs{f_2}_*$, so $\hom_R\prs{A,-}$ is indeed additive.
+
+\begin{example}
+Let $R$ be a commutative ring. A left $R$-module $M$ is then also a right $R$-module with $m \cdot r \coloneqq r \cdot m$. It is easily checked that $M$ is then an $R-R$-bimodule.
+\end{example}
 %---BIBLIOGRAPHY & INDEX---
 
 \printbibliography
